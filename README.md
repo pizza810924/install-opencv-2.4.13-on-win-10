@@ -4,6 +4,7 @@
 https://blogs.msdn.microsoft.com/microsoft_student_partners_in_taiwan/2016/05/14/%E5%B0%87opencv%E5%AE%8C%E7%BE%8E%E5%BB%BA%E7%BD%AE%E6%96%BCvisual-studio%E4%B8%8A/?fbclid=IwAR1uZyjI2HcAyQmWs1tOMklHU2SuLcDQGVN8zUj5OZRhchlDzgyxCpLgWa0
 ```
 **安裝 opencv 2.4.13**
+
 解壓縮 opencv-2.4.13.3-vc14.exe
 
 **設定環境變數**
