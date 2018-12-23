@@ -20,12 +20,13 @@ C:\opencv\build\x64\vc14\bin;
 * 1.設定VC++目錄 → 在「Include目錄」增加 `C:\opencv\build\include`
 * 2.設定VC++目錄 → 在「程式庫目錄」增加 `C:\opencv\build\x64\vc14\lib`
 * 3.C/C++ → 一般(general) → include 目錄 中include 以下三個資料夾的位置：
-    
+    ```
     略.../build/include/
     
     略.../build/include/opencv/
     
     略.../build/include/opencv2
+    ```
 * 4.連結器 → 一般 → 其他程式庫目錄 中新增：
 ```
 opencv_calib3d2413d.lib
