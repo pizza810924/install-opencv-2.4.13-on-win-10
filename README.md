@@ -1,11 +1,12 @@
 # 在Win 10 64bit上的Visual Studio中安裝及設定opencv 2.4.13
-### 參考網站:
+### 參考網站
 ```
 https://blogs.msdn.microsoft.com/microsoft_student_partners_in_taiwan/2016/05/14/%E5%B0%87opencv%E5%AE%8C%E7%BE%8E%E5%BB%BA%E7%BD%AE%E6%96%BCvisual-studio%E4%B8%8A/?fbclid=IwAR1uZyjI2HcAyQmWs1tOMklHU2SuLcDQGVN8zUj5OZRhchlDzgyxCpLgWa0
 ```
 **安裝 opencv 2.4.13**
 
 解壓縮 opencv-2.4.13.3-vc14.exe
+
 
 **設定環境變數**
 
@@ -14,8 +15,10 @@ https://blogs.msdn.microsoft.com/microsoft_student_partners_in_taiwan/2016/05/14
 C:\opencv\build\x64\vc14\bin;
 ```
 
+
 **新增C++檔案**
 開啟Visual Studio後，新增專案 → 左側「Visual C++」 → Win32 主控台應用程式→ 輸入專案名稱 → 確定 → 下一步 → 僅勾取「空專案」就好 → 完成 → 在資源檔新增C++檔案
+
 
 **設定**
 * 1.設定VC++目錄 → 在「Include目錄」增加 `C:\opencv\build\include`
@@ -28,6 +31,8 @@ C:\opencv\build\x64\vc14\bin;
     
     略.../build/include/opencv2
     ```
+    
+    
 * 4.連結器 → 一般 → 其他程式庫目錄 中新增：
 ```
 opencv_calib3d2413d.lib
